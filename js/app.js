@@ -71,4 +71,9 @@ function agregarNuevaAlerta(clase, mensaje) {
   function generarNuevasAlertas() {
     agregarNuevaAlerta('alert-danger', '<strong>¡Problemas!</strong> completa todos los campos.');
   }
+  function reseteo(){
+    let total=0;
+    const resultado=document.getElementById("resultadoResumen");
+    resultado.textContent=total;
+  }
    
